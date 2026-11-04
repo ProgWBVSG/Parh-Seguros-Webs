@@ -28,6 +28,7 @@ export const IMAGENES_LISTAS: Record<string, number[]> = {
   "/img/asesores/iramicel-fortoul": [640],
   "/img/asesores/emmanuel-brigante": [640],
   "/img/asesores/carlos-montorfano": [640, 1280],
+  "/img/asesores/victor-navarro": [640],
 };
 
 export function imagenLista(base: string): boolean {

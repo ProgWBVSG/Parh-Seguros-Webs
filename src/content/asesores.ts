@@ -87,6 +87,21 @@ export const asesores: Asesor[] = [
     origen: "real",
   },
   {
+    slug: "victor-navarro",
+    nombre: "Víctor Navarro",
+    rol: "organizador",
+    matriculaSSN: null,
+    zonas: ["San Miguel"],
+    especialidades: [],
+    telefono: "11 4027-8381",
+    telefonoE164: "5491140278381",
+    email: "vnavarro@gruponavarro.com.ar",
+    foto: "/img/asesores/victor-navarro",
+    tipoImagen: "foto",
+    bio: "Organizador de Seguros en San Miguel, zona norte del Conurbano. Atiende con oficina propia en Martín García 1108.",
+    origen: "real",
+  },
+  {
     slug: "carlos-montorfano",
     nombre: "Carlos Montorfano",
     rol: "pas",
@@ -113,6 +128,7 @@ export const asesores: Asesor[] = [
 export const direccionesAsesores: Record<string, string> = {
   "dinamica-consultora": "Bartolomé Mitre 274, local 36",
   "iramicel-fortoul": "Av. Libertador 2798, Moreno CP 1744 / Maipú 1360, Pilar CP 1629",
+  "victor-navarro": "Martín García 1108, San Miguel",
 };
 
 export function getAsesor(slug: string): Asesor | undefined {
